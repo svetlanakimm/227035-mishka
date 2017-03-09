@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Academy: Мишка</title>
+</head>
+<body>
+
+<header class="page-header">
+	<div class="page-header__logo">
+		<img src="http://placehold.it/150x100" width="90" height="35">
+	</div>
+	<nav class="main-nav  main-nav--closed">
+		<button class="main-nav__toggle" type="button">
+			<img src="http://placehold.it/20x15" width="20" height="15">
+		</button>
+		<ul class="main-nav__list">
+			<li class="main-nav__list-item"><a href="catalog.html">Каталог товаров</a></li>
+			<li class="main-nav__list-item"><a href="form.html">Вязание на заказ</a></li>
+			<li class="main-nav__list-item"><a href="#">Поиск по сайту</a></li>
+			<li class="main-nav__list-item"><a href="#">Корзина: пока пуста</a></li>
+		</ul>
+	</nav>
+	<div class="intro">
+		<h1 class="intro__title">Вязание на заказ</h1>
+	</div>
+</header>
+<section class="order">
+	<p class="order__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+	<form class="order__form form" action="https://echo.htmlacademy.ru/" method="post">
+		<fieldset class="form__item">
+			<legend class="form__item-title">Тип</legend>
+			<label class="form__label" for="accessory">Аксессуар для интерьера</label>
+			<input class="form__input" id="accessory" name="accessory" type="radio" checked>
+			<label class="form__label" for="toy">Детская игрушка</label>
+			<input class="form__input" id="toy" name="toy" type="radio">
+		</fieldset>
+		<fieldset class="form__item">
+			<legend class="form__item-title">Цвет</legend>
+			<label class="form__label" for="white">Белый</label>
+			<input class="form__input" id="white" name="white" type="checkbox" checked>
+			<label class="form__label" for="grey">Серый</label>
+			<input class="form__input" id="grey" name="grey" type="checkbox" checked>
+			<label class="form__label" for="tiffany">«Тиффани»</label>
+			<input class="form__input" id="tiffany" name="tiffany" type="checkbox">
+			<label class="form__label" for="black">Черный</label>
+			<input class="form__input" id="black" name="black" type="checkbox">
+			<label class="form__label" for="pink">Розовый</label>
+			<input class="form__input" id="pink" name="pink" type="checkbox">
+			<label class="form__label" for="orange">Оранжевый</label>
+			<input class="form__input" id="orange" name="orange" type="checkbox">
+		</fieldset>
+		<fieldset class="form__item">
+			<legend class="form__item-title">ФИО</legend>
+			<label class="form__label" for="name">Имя:</label>
+			<input class="form__input" id="name" name="name" type="text" value="Введите ваше имя*" required>
+			<label class="form__label" for="surname">Фамилия:</label>
+			<input class="form__input" id="surname" name="surname" type="text" value="Укажите фамилию*" required>
+			<label class="form__label" for="patronymic">Отчество:</label>
+			<input class="form__input" id="patronymic" name="patronymic" type="text" value="Отчество, если желаете">
+		</fieldset>
+		<fieldset class="form__item">
+			<legend class="form__item-title">Тел</legend>
+			<input class="form__input" name="tel" type="tel" pattern="[+][7] [0-9]{3} [0-9]{2} [0-9]{2}" value="+7 XXX XX XX*" required>
+		</fieldset>
+		<fieldset class="form__item">
+			<legend class="form__item-title">E-mail</legend>
+			<input class="form__input" id="email" name="email" type="email" value="Ваш Email*" required>
+		</fieldset>
+		<fieldset class="form__item">
+			<legend class="form__item-title">Доп</legend>
+			<textarea class="form__textarea" rows="5">Опишите все ваши пожелания к заказу</textarea>
+		</fieldset>
+		<p class="form__text">*Поля обязательны для заполнения</p>
+		<button class="form__submit  btn" type="submit">Отправить заказ</button>
+	</form>
+</section>
+<footer class="page-footer">
+	<div class="social">
+		<a class="social__link" href="">
+			<img class="social__icon  social__icon--instagram" src="http://placehold.it/50x50" width="50" height="50">
+		</a>
+		<a class="social__link" href="">
+			<img class="social__icon  social__icon--facebook" src="http://placehold.it/50x50" width="50" height="50">
+		</a>
+		<a class="social__link" href="">
+			<img class="social__icon  social__icon--twitter" src="http://placehold.it/50x50" width="50" height="50">
+		</a>
+	</div>
+	<p class="page-footer__copyright">
+		Разработано
+		<a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+			<img src="http://placehold.it/50x50" width="50" height="50">
+		</a>
+	</p>
+</footer>
+
+</body>
+</html>
