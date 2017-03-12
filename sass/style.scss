@@ -1,24 +1,22 @@
-@import "variables";
-@import "normalize";
+@import "variables.scss";
+@import "normalize.scss";
 
-@import "fonts";
-@import "btn";
+@import "fonts.scss";
+@import "btn.scss";
 
-@import "page-header";
-@import "main-nav";
-@import "intro";
-@import "promo-text";
-@import "order-form";
-@import "category";
-@import "catalog";
-@import "product-week";
-@import "video";
-@import "about";
-@import "reviews";
-@import "contacts";
+@import "page-header.scss";
+@import "main-nav.scss";
+@import "intro.scss";
+@import "promo-text.scss";
+@import "order-form.scss";
+@import "category.scss";
+@import "catalog.scss";
+@import "product-week.scss";
+@import "video.scss";
+@import "about.scss";
+@import "reviews.scss";
+@import "contacts.scss";
 
-@import "page-footer";
-@import "popup";
-
-
+@import "page-footer.scss";
+@import "popup.scss";
 
