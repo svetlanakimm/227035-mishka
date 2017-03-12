@@ -1,0 +1,21 @@
+.catalog-item{
+  border: 1px solid $color-catalog-border;
+}
+.catalog-item__name{
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $black;
+}
+.catalog-item__text{
+  font-family: $main-font;
+  font-size: 13px;
+  line-height: 30px;
+  color: $color-primary-text;
+}
+.catalog-item__price{
+  font-family: $main-font-bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: $black;
+}
