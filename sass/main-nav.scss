@@ -1,6 +1,4 @@
 .main-nav__link{
-  font-family: $main-font-bold;
-  font-size: 17px;
-  line-height: 24px;
+  @include font-set(17px, 700, 24px);
   color: $black;
 }

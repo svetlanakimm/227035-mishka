@@ -1,6 +1,4 @@
 .promo-text{
-  font-family: $main-font;
-  font-size: 13px;
-  line-height: 24px;
+  @include font-set(13px, 400, 24px);
   color: $color-primary-text;
 }

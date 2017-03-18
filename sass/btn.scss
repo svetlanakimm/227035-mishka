@@ -2,9 +2,7 @@
   display: block;
   border: 2px solid $color-primary-text;
 
-  font-family: $main-font-bold;
-  font-size: 17px;
-  line-height: 20px;
+  @include font-set(17px, 700, 20px);
   color: $color-primary-text;
   background-color: $white;
 }

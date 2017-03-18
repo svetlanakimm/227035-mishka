@@ -1,25 +1,17 @@
 .product-week__title{
-  font-family: $main-font-bold;
-  font-size: 25px;
-  line-height: 30px;
+  @include font-set(25px, 700, 30px);
   color: $black;
 }
 .product-week__label{
-  font-family: $main-font-bold;
-  font-size: 17px;
-  line-height: 20px;
+  @include font-set(17px, 700, 20px);
   color: $color-primary;
 }
 .product-week__text,
 .product-week__table-field{
-  font-family: $main-font;
-  font-size: 17px;
-  line-height: 20px;
+  @include font-set(17px, 400, 20px);
   color: $color-primary-text;
 }
 .product-week__price{
-  font-family: $main-font-bold;
-  font-size: 17px;
-  line-height: 24px;
+  @include font-set(17px, 700, 24px);
   color: $color-primary-text;
 }

@@ -1,14 +1,10 @@
 .contacts__title{
-  font-family: $main-font-bold;
-  font-size: 18px;
-  line-height: 30px;
+  @include font-set(18px, 700, 30px);
   color: $black;
 }
 .contacts__field,
 .contacts__link,
 .contacts__text{
-  font-family: $main-font;
-  font-size: 15px;
-  line-height: 30px;
+  @include font-set(15px, 400, 30px);
   color: $color-primary-text;
 }

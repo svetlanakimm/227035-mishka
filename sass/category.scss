@@ -1,12 +1,10 @@
 .category__link{
-  font-family: $main-font-bold;
-  font-size: 19px;
-  line-height: 24px;
+  @include font-set(19px, 700, 24px);
   color: $white;
 }
 .category__item:nth-child(1){
   background-color: $color-primary;
 }
 .category__item:nth-child(2){
-  background-color: $color-primary-dark;
+  background-color: $color-secondary;
 }

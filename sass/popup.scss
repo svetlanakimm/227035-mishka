@@ -1,23 +1,17 @@
 .popup{
-  border-top: 1px solid $color-popup-border;
-  border-bottom: 1px solid $color-popup-border;
+  border-top: 1px solid $dark-border;
+  border-bottom: 1px solid $dark-border;
 }
 .popup__title{
-  font-family: $main-font-bold;
-  font-size: 25px;
-  line-height: 30px;
+  @include font-set(25px, 700, 30px);
   color: $black;
 }
 .popup__subtitle{
-  font-family: $main-font;
-  font-size: 15px;
-  line-height: 30px;
+  @include font-set(15px, 400, 30px);
   color: $color-primary-text;
 }
 .size_s{
-  font-family: $main-font-bold;
-  font-size: 15px;
-  line-height: 16px;
+  @include font-set(15px, 700, 16px);
   color: $color-primary-text;
 }
 .popup__add{

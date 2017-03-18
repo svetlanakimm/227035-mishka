@@ -1,19 +1,13 @@
 .reviews__title{
-  font-family: $main-font-bold;
-  font-size: 25px;
-  line-height: 30px;
+  @include font-set(25px, 700, 30px);
   color: $black;
 }
 .reviews__text,
 .reviews__author-nick{
-  font-family: $main-font;
-  font-size: 15px;
-  line-height: 30px;
+  @include font-set(15px, 400, 30px);
   color: $color-primary-text;
 }
 .reviews__author-name{
-  font-family: $main-font-bold;
-  font-size: 18px;
-  line-height: 24px;
+  @include font-set(18px, 700, 24px);
   color: $black;
 }
